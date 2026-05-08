@@ -71,3 +71,41 @@ code{
     
 
 }
+
+.campo {
+    padding: 16px;
+}
+
+.campo label{
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+}
+.campo input, .campo select{
+    width: 100%;
+    padding: 9px 12px ;
+    border: solid #ccc;
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+}
+.campo input :focus,
+ .campo select :focus{
+    border-color: blue;
+    outline: none;
+}
+.btn-enviar{
+    padding: 10px 24px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 6px;
+}
+.btn-enviar{
+    background-color: #1a5276;
+}
